@@ -1,11 +1,11 @@
 #frontend
-Web/.next/
-Web/node_modules/
-Web/build_node/
+Web/parking_app/.next/
+Web/parking_app/node_modules/
+Web/parking_app/build_node/
 
 #Movil
-Movil/.expo/
-Movil/node_modules/
+Movil/parking_app/.expo/
+Movil/parking_app/node_modules/
 
 #Backend
 Backend/**/__pycache__/ 
