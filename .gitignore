@@ -1,0 +1,14 @@
+#frontend
+Web/.next/
+Web/node_modules/
+Web/build_node/
+
+#Movil
+Movil/.expo/
+Movil/node_modules/
+
+#Backend
+Backend/**/__pycache__/ 
+Backend/config/.env
+Backend/__init__.py
+Backend/virtual/
