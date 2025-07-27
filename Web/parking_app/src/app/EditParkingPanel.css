@@ -1,0 +1,63 @@
+/* EditParkingPanel.css */
+
+/* Bordes para inputs con error */
+.input-error {
+  border-color: #ef4444 !important; /* rojo brillante */
+  box-shadow: 0 0 5px #ef4444;
+}
+
+/* Mensajes de error */
+.error-text {
+  color: #ef4444;
+  font-size: 0.875rem; /* 14px */
+  margin-top: 0.25rem; /* 4px */
+}
+
+/* Botón Guardar deshabilitado */
+.button-disabled {
+  background-color: #9ca3af; /* gris medio */
+  cursor: not-allowed;
+  color: #d1d5db; /* gris claro */
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease;
+}
+
+/* Botón Guardar habilitado */
+.button-enabled {
+  background-color: #16a34a; /* verde vivo */
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.button-enabled:hover {
+  background-color: #15803d; /* verde oscuro hover */
+}
+
+/* Botón Cancelar */
+.button-cancel {
+  background-color: #4b5563; /* gris oscuro */
+  color: #f3f4f6; /* gris claro */
+  transition: background-color 0.2s ease;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.button-cancel:hover {
+  background-color: #374151; /* gris más oscuro */
+}
+
+/* Botón Modificar */
+.button-modify {
+  background-color: #22c55e; /* verde lima */
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.button-modify:hover {
+  background-color: #16a34a; /* verde oscuro */
+}
